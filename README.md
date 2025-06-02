@@ -1,4 +1,4 @@
-# gioia
+# Gioia - glittering fashion
 Electronic wearable device <br> 
 <br> 
 ![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/Gioia_logo.jpg)
@@ -6,6 +6,29 @@ Electronic wearable device <br>
 Youtube: https://youtu.be/MnyeiMZdmjQ?si=YpLxnYz4cA8ocs8j
 
 ## Description
+"Gioia" in Italian means joy.
+I wanted to call this project this way in the hope that it will bring joy and happiness to those who wear it.
+This gadget of 3 cm of diametrer can contain a maximum of 24 single-color LEDs or 8 RGB LEDs.
+The infinite animations, which also include letters and symbols, are managed by an Attiny85 microcontroller.
+
+### Battery
+The device is powered by a 30mAh LIR1632 rechargeable lithium battery. <br>
+Charging is done via a micro USB connector and takes about 90 minutes from 0% to 100%
+The device lasts for about 5 continuous hours
+
+### Versions
+The project is available in 2 versions:<br>
+
+#### 21 monochrome leds:<br>
+
+All the documentation to make it is available here: https://github.com/Green-bms/gioia/tree/master/21%20monochrome%20leds%20version
+
+#### 8 RGB leds:<br>
+
+All the documentation to make it is available here: https://github.com/Green-bms/gioia/tree/master/8%20RGB%20leds%20version
+
+### Microcontroller
+
 
 ## Open source Development applications
 The project was created using the following Open source applications:
