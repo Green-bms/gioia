@@ -1,0 +1,143 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Gioia isp"
+Date "2024-10-18"
+Rev "0.00"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:WeMos_D1_mini U1
+U 1 1 65466297
+P 3150 3850
+F 0 "U1" H 2500 3200 50  0000 C CNN
+F 1 "WeMos_D1_mini" H 2500 3050 50  0000 C CNN
+F 2 "Module:WEMOS_D1_mini_light" H 3150 2700 50  0001 C CNN
+F 3 "https://wiki.wemos.cc/products:d1:d1_mini#documentation" H 1300 2700 50  0001 C CNN
+	1    3150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3050 3050 2750
+Text Notes 2900 2350 0    50   ~ 0
+WEMOS D1 MINI
+Wire Wire Line
+	3150 4650 3150 5000
+Wire Wire Line
+	3550 3850 3700 3850
+Text Label 3700 3850 0    50   ~ 0
+reset
+Wire Wire Line
+	3550 3950 3700 3950
+Wire Wire Line
+	3550 4050 3700 4050
+Wire Wire Line
+	3550 4150 3700 4150
+Text Label 3700 3950 0    50   ~ 0
+sck
+Text Label 3700 4050 0    50   ~ 0
+miso
+Text Label 3700 4150 0    50   ~ 0
+mosi
+NoConn ~ 2750 3450
+NoConn ~ 2750 3750
+NoConn ~ 2750 3850
+NoConn ~ 3550 3350
+NoConn ~ 3550 3450
+NoConn ~ 3550 3650
+NoConn ~ 3550 3750
+NoConn ~ 3550 4250
+$Comp
+L Device:R R1
+U 1 1 65AD9A30
+P 4500 3900
+F 0 "R1" H 4570 3946 50  0000 L CNN
+F 1 "330" H 4570 3855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4430 3900 50  0001 C CNN
+F 3 "~" H 4500 3900 50  0001 C CNN
+	1    4500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 65ADA24B
+P 4500 4450
+F 0 "D1" V 4539 4332 50  0000 R CNN
+F 1 "LED" V 4448 4332 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4500 4450 50  0001 C CNN
+F 3 "~" H 4500 4450 50  0001 C CNN
+	1    4500 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 3550 4500 3550
+Wire Wire Line
+	4500 3550 4500 3750
+Wire Wire Line
+	4500 4050 4500 4300
+Wire Wire Line
+	4500 4600 4500 5000
+Connection ~ 4500 5000
+NoConn ~ 3250 3050
+Text Label 5800 4150 2    50   ~ 0
+sck
+Wire Wire Line
+	5950 4150 5800 4150
+Text Label 5800 4050 2    50   ~ 0
+miso
+Wire Wire Line
+	5950 4050 5800 4050
+Text Label 5800 3950 2    50   ~ 0
+mosi
+Wire Wire Line
+	5950 3950 5800 3950
+Text Label 5800 3850 2    50   ~ 0
+reset
+Wire Wire Line
+	5950 3850 5800 3850
+$Comp
+L Connector:USB_B_Micro J2
+U 1 1 6712891A
+P 7900 3950
+F 0 "J2" H 7670 3939 50  0000 R CNN
+F 1 "USB_B_Micro" H 7670 3848 50  0000 R CNN
+F 2 "green_detect:USB_Micro-B_Amphenol_10104110_Horizontal" H 8050 3900 50  0001 C CNN
+F 3 "~" H 8050 3900 50  0001 C CNN
+	1    7900 3950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 2750 7350 3750
+Wire Wire Line
+	7350 3750 7600 3750
+Wire Wire Line
+	7900 5000 7900 4350
+NoConn ~ 7600 3950
+NoConn ~ 7600 4050
+NoConn ~ 7600 4150
+NoConn ~ 8000 4350
+Wire Wire Line
+	3150 5000 4500 5000
+Wire Wire Line
+	3050 2750 7350 2750
+Wire Wire Line
+	4500 5000 7900 5000
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 67CDD127
+P 6150 3950
+F 0 "J1" H 6230 3942 50  0000 L CNN
+F 1 "Conn_01x04" H 6230 3851 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6150 3950 50  0001 C CNN
+F 3 "~" H 6150 3950 50  0001 C CNN
+	1    6150 3950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 74HC595BQ_115
+#
+DEF 74HC595BQ_115 U 0 40 Y Y 2 L N
+F0 "U" -300 625 50 H V L BNN
+F1 "74HC595BQ_115" -300 -600 50 H V L BNN
+F2 "DHVQFN16" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Nexperia USA" 0 0 50 H I L BNN "MF"
+F5 "\n74HC Series 6 V 3-State Surface Mount 8-Bit Serial Shift Register - DHVQFN-16\n" 0 0 50 H I L BNN "Description"
+F6 "DHVQFN16-16 Nexperia USA Inc." 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/74HC595BQ,115/Nexperia/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F9 "74HC595BQ,115" 0 0 50 H I L BNN "MP"
+F10 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=43259&manufacturer=Nexperia USA&part_name=74HC595BQ,115&search_term=74hc595" 0 0 50 H I L BNN "Purchase-URL"
+F11 "In Stock" 0 0 50 H I L BNN "Availability"
+F12 "https://www.snapeda.com/parts/74HC595BQ,115/Nexperia/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+DRAW
+S -300 -500 300 600 1 0 16 f
+X QB 1 500 400 200 L 40 40 1 0 T 
+X QC 2 500 300 200 L 40 40 1 0 T 
+X QD 3 500 200 200 L 40 40 1 0 T 
+X QE 4 500 100 200 L 40 40 1 0 T 
+X QF 5 500 0 200 L 40 40 1 0 T 
+X QG 6 500 -100 200 L 40 40 1 0 T 
+X QH 7 500 -200 200 L 40 40 1 0 T 
+X SCL 10 -500 200 200 R 40 40 1 0 I I
+X SCK 11 -500 300 200 R 40 40 1 0 I C
+X RCK 12 -500 0 200 R 40 40 1 0 I C
+X G 13 -500 -400 200 R 40 40 1 0 I I
+X SER 14 -500 500 200 R 40 40 1 0 I 
+X QA 15 500 500 200 L 40 40 1 0 T 
+X QH* 9 500 -400 200 L 40 40 1 0 T 
+T 900 75 -230 50 0 2 0 GND Normal 0 L B
+T 900 75 100 50 0 2 0 VCC Normal 0 L B
+X ~ 8 0 -300 200 U 40 40 2 0 W 
+X ~ 17 0 -300 200 U 40 40 2 0 W 
+X ~ 16 0 300 200 D 40 40 2 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
