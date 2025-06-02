@@ -13,6 +13,7 @@ The infinite animations, which also include letters and symbols, are managed by 
 
 ### Battery
 The device is powered by a 30mAh LIR1632 rechargeable lithium battery. <br>
+![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/usb_charging.png) <br> 
 Charging is done via a micro USB connector and takes about 90 minutes from 0% to 100%
 The device lasts for about 5 continuous hours
 
@@ -20,15 +21,19 @@ The device lasts for about 5 continuous hours
 The project is available in 2 versions:<br>
 
 #### 21 monochrome leds:<br>
-
+![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/21_leds.jpg) <br> 
 All the documentation to make it is available here: https://github.com/Green-bms/gioia/tree/master/21%20monochrome%20leds%20version
 
 #### 8 RGB leds:<br>
-
+![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/8_rgb_leds.jpg) <br> 
 All the documentation to make it is available here: https://github.com/Green-bms/gioia/tree/master/8%20RGB%20leds%20version
 
 ### Microcontroller
-
+The device's LEDs are driven by an Attiny85 microcontroller and 3 74HC595 shift registers.<br> 
+The LED animations that can compose various light games, texts and symbols, are programmed in the code to be loaded into the microcontroller<br> 
+Programming the microcontroller is very simple: you need to power the device via USB and connect the 4 pins of the ISP programmer to the pads shown in the pictures below.<br> 
+![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/programming.png)
+![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/programming%20pins.png)
 
 ## Open source Development applications
 The project was created using the following Open source applications:
