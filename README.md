@@ -6,10 +6,10 @@ Electronic wearable device <br>
 Youtube: https://youtu.be/MnyeiMZdmjQ?si=YpLxnYz4cA8ocs8j
 
 ## Description
-"Gioia" in Italian means joy.
-I wanted to call this project this way in the hope that it will bring joy and happiness to those who wear it.
-This gadget of 3 cm of diametrer can contain a maximum of 24 single-color LEDs or 8 RGB LEDs.
-The infinite animations, which also include letters and symbols, are managed by an Attiny85 microcontroller.
+"Gioia" in Italian means joy.<br> 
+I wanted to call this project this way in the hope that it will bring joy and happiness to those who wear it.<br> 
+This gadget of 3 cm of diametrer can contain a maximum of 24 single-color LEDs or 8 RGB LEDs.<br> 
+The infinite animations, which also include letters and symbols, are managed by an Attiny85 microcontroller.<br> 
 
 ### Battery
 The device is powered by a 30mAh LIR1632 rechargeable lithium battery. <br>
