@@ -1,5 +1,6 @@
 # gioia
 Electronic wearable device <br> 
+<br> 
 ![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/Gioia_logo.jpg)
 
 Youtube: https://youtu.be/MnyeiMZdmjQ?si=YpLxnYz4cA8ocs8j
