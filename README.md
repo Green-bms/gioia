@@ -3,7 +3,13 @@ Electronic wearable device <br>
 <br> 
 ![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/Gioia_logo.jpg)
 
-Youtube: https://youtu.be/MnyeiMZdmjQ?si=YpLxnYz4cA8ocs8j
+Youtube: https://youtu.be/MnyeiMZdmjQ?si=YpLxnYz4cA8ocs8j <br> 
+Instructables: https://www.instructables.com/Gioia-Glittering-Fashion/ <br> 
+Hackaday.io: https://hackaday.io/project/202226-gioia-glittering-fashion <br> 
+Hackster.io: https://www.hackster.io/green-bms/gioia-glittering-fashion-81f5f8 <br> 
+Purchase PCB here: <br> 
+https://www.pcbway.com/project/shareproject/Gioia_glittering_fashion_21_monocrome_leds_caeb9192.html  <br>
+https://www.pcbway.com/project/shareproject/Gioia_glittering_fashion_8_RGB_leds_abd15673.html <br>
 
 ## Description
 "Gioia" in Italian means joy.<br> 
@@ -26,6 +32,7 @@ All the documentation to make it is available here: https://github.com/Green-bms
 
 #### 8 RGB leds:<br>
 ![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/8_rgb_leds.jpg) <br> 
+Each LED can light up in one of these 7 colors: red, green, blue, yellow, fuchsia, aqua, white
 All the documentation to make it is available here: https://github.com/Green-bms/gioia/tree/master/8%20RGB%20leds%20version
 
 ### Microcontroller
