@@ -32,7 +32,7 @@ All the documentation to make it is available here: https://github.com/Green-bms
 
 #### 8 RGB leds:<br>
 ![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/8_rgb_leds.jpg) <br> 
-Each LED can light up in one of these 7 colors: red, green, blue, yellow, fuchsia, aqua, white
+Each LED can light up in one of these 7 colors: red, green, blue, yellow, fuchsia, aqua, white. <br>
 All the documentation to make it is available here: https://github.com/Green-bms/gioia/tree/master/8%20RGB%20leds%20version
 
 ### Microcontroller
