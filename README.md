@@ -18,9 +18,12 @@ This gadget of 3 cm of diametrer can contain a maximum of 24 single-color LEDs o
 The infinite animations, which also include letters and symbols, are managed by an Attiny85 microcontroller.<br> 
 
 ### The PCB
-Gioia's PCBs are made by PCBway https://pcbway.com/g/kY6w10
+Gioia's PCBs are made by PCBway https://pcbway.com/g/kY6w10 <br>
+![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/preassembled%201.jpg) <br>
 I chose this supplier because the quality of the PCB and the assembly of the components is of great quality.
-The assistance is excellent and the delivery times are always respected
+The assistance is excellent and the delivery times are always respected <br>
+![alt-text](https://github.com/Green-bms/gioia/blob/master/Pictures/preassembled%202.jpg) <br>
+
 
 ### Battery
 The device is powered by a 30mAh LIR1632 rechargeable lithium battery. <br>
